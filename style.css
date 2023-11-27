@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 25px;
+    color: #1e30f3;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: #0000008c;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+
+.menu li a:hover{
+    color: #000;
+}
+
+.section1{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section1 .top span{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    color: #fff;
+    font-size: 12px;
+}
+
+p{
+    color: #6c757d;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+h1{
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons button:first-child{
+    font-size: 18px;
+    padding: 16px 48px;
+    background: #1e30f3;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.buttons button:last-child{
+    font-size: 18px;
+    padding: 16px 48px;
+    background: transparent;
+    color: #212529;
+    border: solid 1px #212529;
+    outline: none;
+    border-radius: 8px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.buttons button:first-child:hover{
+    background: #1225f0;
+}
+.buttons button:last-child:hover{
+    background: #212529;
+    color: #fff;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.image img{
+    width: 100%;
+}
+
+.section2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+i{
+    font-size: 50px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+footer div:last-child{
+    display: flex;
+    gap: 50px;
+}
